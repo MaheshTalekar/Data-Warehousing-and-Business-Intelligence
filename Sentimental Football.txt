@@ -1,7 +1,5 @@
-library(tm.lexicon.GeneralInquirer)
 library(devtools)
 install_github("mannau/tm.plugin.sentiment")
-library(tm.lexicon.GeneralInquirer)
 install.packages("tm.lexicon.GeneralInquirer", repos="http://datacube.wu.ac.at", type="source")
 library(tm.lexicon.GeneralInquirer)
 install.packages("tm.plugin.sentiment", repos="http://R-Forge.R-project.org")
@@ -12,10 +10,10 @@ library(RColorBrewer)
 library(plyr)
 library(ggplot2)
 library(sentimentr)
-consumer_key <- 'AYJkNqtTpfN3thnHRjmewq53r'
-consumer_secret <- 'XHxntLHel8f2Y5EROBGO7A71sV5hc1K62NY05ZCitIVD1r4TgZ'
-access_token <- '805521025156939776-NQthY1mGHFkDTONR07kxReSskLm45P4'
-access_secret <- 'abNKyvJMkeMvXDcQdNUNcN80NmSHm7mbYnBFWvMKbf4kG'
+consumer_key <- '....'
+consumer_secret <- '....'
+access_token <- '....'
+access_secret <- '....'
 positive=c()
 negative=c()
 
